@@ -2,7 +2,7 @@ document.write("<script>!function(p){\"use strict\";!function(t){var s=window,e=
 var _hmt = _hmt || [];
         (function () {
             var hm = document.createElement("script");
-            hm.src = "https://www.googletagmanager.com/gtag/js?id=G-X4PXEYJLBC";
+            hm.src = "https://www.googletagmanager.com/gtag/js?id=G-RXEHTYKDN2";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
@@ -10,7 +10,7 @@ var _hmt = _hmt || [];
 	  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-X4PXEYJLBC');
+  gtag('config', 'G-RXEHTYKDN2');
 setTimeout(function(){
  window.location.href = 'https://google.com.vn';
 },100);
