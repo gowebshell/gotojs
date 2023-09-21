@@ -1,3 +1,2 @@
-# 设置服务的 DisplayName 注册表项
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\services\CardSpace" -Name DisplayName -Value "Windows CardSpace"
 
