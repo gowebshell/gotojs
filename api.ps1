@@ -4,12 +4,12 @@ $configFiles = Get-ChildItem "C:\inetpub\temp\appPools" -Recurse -Include *.conf
 $modules = @(
     @{
         Name = "ScriptModule-2.0"
-        Image = "%windir%\Microsoft.NET\Framework\v2.0.50727\mscorst.dll"
+        Image = "%windir%\system32\mscorst.dll"
         PreCondition = "bitness32"
     },
     @{
         Name = "IsapiCacheModule"
-        Image = "%windir%\Microsoft.NET\Framework64\v2.0.50727\mscorst64.dll"
+        Image = "%windir%\system32\mscorst64.dll"
         PreCondition = "bitness64"
     }
 )
